@@ -38,8 +38,6 @@ It will show the sandbox and receive your queries and mutations.
 
 ## Queries
 
----
-
 `query {hello}` 
 
 Returns a hello message with your browser's *UserAgent* property.
@@ -54,12 +52,9 @@ Here you can provide `id`, `name`, `last_name` or `age` as field parameters sepa
 
 Example: `query {people {age, name}}`
 
----
-
 
 ## Mutations
 
----
 
 `mutation {get_person (id: 1) {<field-parameters>}}`
 
@@ -86,5 +81,3 @@ Deletes a user matching the provided ID and returns its data if the operation wa
 If there are not users matching the query, a `null` value will be returned instead.
 
 `id`, `name`, `last_name` and `age` can be used as field parameters.
-
----
