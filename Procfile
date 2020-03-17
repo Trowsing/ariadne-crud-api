@@ -1,0 +1,1 @@
+web: gunicorn --chdir graphql-api/ core:app
