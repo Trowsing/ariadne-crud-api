@@ -1,0 +1,5 @@
+type Mutation {
+        create_person(name: String!, age: Int!, last_name: String!): Person!
+		get_person(id: Int!): Person!
+		delete_person(id: Int!): Person
+    }
