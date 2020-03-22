@@ -25,16 +25,18 @@ pipenv shell
 
 Run the application locally:
 ```bash
-python graphql-api/handler.py
+cd graphql-api && python handler.py
 ```
+
+You can also test the deployed application [here](https://ariadne-graph.herokuapp.com/).
 
 ## Schema and Sandbox
 
-The main application endpoint is `/graphql`
+The index path `/` will render the sandbox.
  
 ![Sandbox](sandbox.png "Using the Sandbox")
 
-It will show the sandbox and receive your queries and mutations.
+It will receive all your queries and mutations.
 
 ## Queries
 
