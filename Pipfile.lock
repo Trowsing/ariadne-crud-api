@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "55ce3c9fdf24bcdaed70acbb619aa2128fe7c8d10050c958bd5d21e0cbab24e5"
+            "sha256": "f449fd065bbc50bb2a06eff4e6378cc45716d6912dbb5fe394d6b64adcb072d4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,11 +18,11 @@
     "default": {
         "ariadne": {
             "hashes": [
-                "sha256:0254de02664139e25acd3f7939d072cdcb49ac9c0bbbad71f5bf4b9d4a963d3c",
-                "sha256:e916a50cef728d578f5401a5a5d7175e63fc2ae3c10291e09b8d1898c0b9603e"
+                "sha256:2bf8e7ca4292173e2c2c8a55bb587a1efb05b87bffab5cef17f42dd4addd906b",
+                "sha256:e5bc475f2c830bf7c2078cf69f4b0b4f6e222e15d269772a5edfd377b788d00a"
             ],
             "index": "pypi",
-            "version": "==0.10.0"
+            "version": "==0.8"
         },
         "click": {
             "hashes": [
@@ -47,12 +47,12 @@
             "index": "pypi",
             "version": "==2.4.1"
         },
-        "graphql-core": {
+        "graphql-core-next": {
             "hashes": [
-                "sha256:01c42f6085db1b6fd2fca042d92ac6e11559839a2429718f15dcd6ec52290468",
-                "sha256:741f9af0d1887f79d30fe92e4e885616618b655f60f7642ec9746bba6f4ac837"
+                "sha256:254187ad5f5acdfd521429d87fd3c05896dc1b74ddcb30b1fa37905dc1dc7c13",
+                "sha256:76b52e7f654d8fc6abefc8583ebfd869a3939590813110ad27c0c0908b7d0659"
             ],
-            "version": "==3.1.0b1"
+            "version": "==1.1.1"
         },
         "gunicorn": {
             "hashes": [

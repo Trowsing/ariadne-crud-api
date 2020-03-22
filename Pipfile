@@ -9,7 +9,7 @@ black = "*"
 
 [packages]
 flask = "*"
-ariadne = "*"
+ariadne = "==0.08"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 
