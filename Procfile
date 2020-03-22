@@ -1,1 +1,1 @@
-web: gunicorn --chdir graphql-api/ core:app
+web: gunicorn --chdir graphql-api/ handler:app
